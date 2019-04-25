@@ -1,0 +1,21 @@
+The zip contains several sets of binds divided by folders.
+
+/powers   - This contains binds keyed to powers of some form. This include the Master Mind control binds.
+/Stupid - just a series of rotating binds that allow your character to spit out some random bits of text. Great for the lengthy cut scenes.
+
+To install these binds:
+
+1- download the zip file
+2- create a file on your drive called 'binds'. The full file path should be: C:\binds\
+3- Unzip the files into that directory.
+4- download the MNU file
+5- go to you COH directory (typcially C:\User\Documents\Tequila). If there is a file labled "data" open it. if not, create it and open it.
+6- if there is not a sub-foler labled 'texts' create it and go into it.
+7- if there is not a sub-foler labled 'English' create it and go into it.
+8- if there is not a sub-foler labled 'Menus' create it and go into it.
+9- copy the 'buildmenu.mnu' file into this location.
+10- Load into City of Heroes.
+11- once you load into City of heroes, execute the following command in the chat window: /macro "#" popmenu buildmenu
+12- this will create a grey button with a # on it and tie the menu for the binds to that button. I suggest opening an extra power tray, 
+putting it at the top of your screen and dragging this icon onto that.
+13- Click on that icon to launch the bind menu. From there it's just a matter of click on the option you want.
