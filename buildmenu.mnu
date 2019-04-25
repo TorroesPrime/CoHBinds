@@ -1,0 +1,42 @@
+
+Menu "buildmenu"
+{
+	Title "Tools"
+	Option "Name"  "getglobalname $target"
+	Option "Sync"  "Sync"
+	Option "Gfx"   "unloadGFX"
+	Option "Stuck" "stuck"
+	Divider
+	Title "Costumes"
+	Option "Slot 1"  "cc 0"
+	Option "Slot 2"  "cc 1"
+	Option "Slot 3"  "cc 2"
+	Option "Slot 4"  "cc 3"
+	Option "Slot 5"  "cc 4"
+	Option "Slot 6"  "cc 5"
+	Option "Slot 7"  "cc 6"
+	Option "Slot 8"  "cc 7"
+	Divider
+	Title "Load Binds"
+		Menu &Power Sets
+		{
+			Title "Load Binds"
+			Menu &Master Minds
+			Option "&Bots"   "t $name, Bot Commands Loaded to num pad.$$bindloadfile C:\binds\C:\binds\powers\MMs\bots.txt"	
+			Option "&Mercs"   "t $name, Mercenary Commands Loaded to num pad.$$bindloadfile C:\binds\C:\binds\powers\MMs\mercs.txt"	
+			Option "&Ninjas"   "t $name, Mercenary Commands Loaded to num pad.$$bindloadfile C:\binds\C:\binds\powers\MMs\ninja.txt"	
+			Option "&Demons"   "t $name, Mercenary Commands Loaded to num pad.$$bindloadfile C:\binds\C:\binds\powers\MMs\demons.txt"	
+			Option "&Thugs"   "t $name, Mercenary Commands Loaded to num pad.$$bindloadfile C:\binds\C:\binds\powers\MMs\thugs.txt"	
+			Option "&Necromancy"   "t $name, Mercenary Commands Loaded to num pad.$$bindloadfile C:\binds\C:\binds\powers\MMs\necro.txt"	
+
+		}
+		Menu &Stupid and Silly
+		{
+		Option "&Random Battle Cries"   "t $name, Press F10 to use.$$bindloadfile C:\binds\stupids\RandomQuotes\01.txt"
+		Option "&Modern Major General"   "t $name, Press CTRL+F12 to use.$$bindloadfile C:\binds\stupids\ModernMajorGeneral\01.txt"
+		Option "&Fraggle Rock"   "t $name, Press CTRL+F12 to use.$$bindloadfile C:\binds\stupids\FraggleRock\01.txt"
+		Option "&Scooby Doo"   "t $name, Press CTRL+F12 to use.$$bindloadfile C:\binds\stupids\ScoobyDooTheme\01.txt"
+		}
+	Divider
+	
+}
